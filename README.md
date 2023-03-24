@@ -10,12 +10,12 @@ To accomplish this task, a customized private cartoon dataset (original images) 
 The task is to build and fine-tune a machine-learning model that accurately classifies social media posts into their corresponding emotion categories, using synthetic images.
 
 To achieve this, the following steps are required:
-star Generate synthetic images using any image generation techniques (e.g., GAN, Diffusion Models, Autoencoder Decoder) to augment the dataset and increase its size.
-star So for example, we use the images in the category of "happy" to synthetically generate similar images. Repeat the same for each category.
-star Use the original and synthetic images to build a machine-learning model that accurately classifies social media posts into their corresponding emotion categories.
-star Evaluate the performance of the model using appropriate metrics such as accuracy, precision, recall, and F1-score.
-star Compare the performance of the model when trained on the original dataset only, the synthetic dataset only, and the combination of both.
-star Analyze the results to determine the effectiveness of using synthetic images for improving classification accuracy.
+- Generate synthetic images using any image generation techniques (e.g., GAN, Diffusion Models, Autoencoder Decoder) to augment the dataset and increase its size.
+- So for example, we use the images in the category of "happy" to synthetically generate similar images. Repeat the same for each category.
+- Use the original and synthetic images to build a machine-learning model that accurately classifies social media posts into their corresponding emotion categories.
+- Evaluate the performance of the model using appropriate metrics such as accuracy, precision, recall, and F1-score.
+- Compare the performance of the model when trained on the original dataset only, the synthetic dataset only, and the combination of both.
+- Analyze the results to determine the effectiveness of using synthetic images for improving classification accuracy.
 
 The dataset consists of a diverse range of cropped cartoon face images. The data has been pre-processed and cleaned, but you can apply additional data cleaning or pre-processing techniques if necessary. You can use any machine learning or deep learning algorithm or technique of your choice to build and finetune your model, as long as it can accurately classify the posts into their corresponding emotion categories.
 
